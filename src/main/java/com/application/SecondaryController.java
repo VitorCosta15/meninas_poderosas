@@ -1,4 +1,4 @@
-package com.example;
+package com.application;
 
 import java.io.IOException;
 import javafx.fxml.FXML;
@@ -7,6 +7,6 @@ public class SecondaryController {
 
     @FXML
     private void switchToPrimary() throws IOException {
-        App.setRoot("primary");
+        App.setRoot("/com/layouts/primary.fxml");
     }
 }

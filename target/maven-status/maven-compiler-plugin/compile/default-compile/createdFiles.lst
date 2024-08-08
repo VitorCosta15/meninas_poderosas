@@ -1,4 +1,4 @@
-com\example\PrimaryController.class
-com\example\SecondaryController.class
+com\application\PrimaryController.class
+com\application\SecondaryController.class
+com\application\App.class
 module-info.class
-com\example\App.class

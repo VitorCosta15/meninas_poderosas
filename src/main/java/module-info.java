@@ -1,7 +1,8 @@
-module com.example {
+module com.application {
     requires javafx.controls;
-    requires javafx.fxml;
+    requires javafx.fxml; //Colocar qualquer lib importada
 
-    opens com.example to javafx.fxml;
-    exports com.example;
+   
+    opens com.application to javafx.fxml;  //Colocar todos os packages d trabalho
+    exports com.application;
 }
