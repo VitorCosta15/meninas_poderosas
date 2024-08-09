@@ -1,5 +1,6 @@
 package com.application;
 
+import com.maquina.Memoria;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -22,6 +23,7 @@ public class App extends Application {
         stage.setWidth(1300);
         scene = new Scene(loader.load());
         stage.setScene(scene);
+        Memoria.teste("VSF com Java");
         stage.show();
     }
 
